@@ -1,0 +1,45 @@
+<%-include('partials/header')-%>
+<div class="sa__index-main-container">
+  <div class="sa__index-main-container-info">
+    <h1>Enter your prompt to generate python scripts</h1>
+    <div class="sa__index-main-container-info-input">
+      <input
+        type="text"
+        name="prompt"
+        id="prompt"
+        placeholder="Enter your prompt"
+      />
+      <input
+        type="text"
+        name="key"
+        id="key"
+        placeholder="Enter your OpenAI API key"
+      />
+      <button
+        onClick="window.location.href='https://www.youtube.com/watch?v=nafDyRsVnXU'"
+      >
+        How to Get an API Key?
+      </button>
+      <button onclick="">Submit</button>
+    </div>
+  </div>
+  <div class="sa__index-main-container-display">
+    <div>
+      <h1>Code: Python</h1>
+      <button>
+        <img src="images/copy-icon.png" alt="copy-icon image" />
+        Copy
+      </button>
+    </div>
+    <textarea name="codeArea" id="codeArea" cols="30" rows="10"></textarea>
+    <h1 class="sa__index-main-container-display-result-textarea-h1">
+      Code will be displayed here
+    </h1>
+    <img
+      class="sa__index-main-container-display-result-textarea-loading-gif"
+      src="images/Pulse-1s-200px.gif"
+      alt="loading gif"
+    />
+  </div>
+</div>
+<%-include('partials/footer')-%>

@@ -1,0 +1,29 @@
+{
+  "name": "funix-web-app",
+  "version": "1.0.0",
+  "description": "A web application to run funix functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "-"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonishSoundarRaj/funix-web-app.git"
+  },
+  "author": "Monish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MonishSoundarRaj/funix-web-app/issues"
+  },
+  "homepage": "https://github.com/MonishSoundarRaj/funix-web-app#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.2.2",
+    "openai": "^3.2.1",
+    "serve-favicon": "^2.5.0"
+  }
+}
