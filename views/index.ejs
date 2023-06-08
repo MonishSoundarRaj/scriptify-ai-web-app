@@ -1,7 +1,10 @@
 <%-include('partials/header')-%>
 <div class="sa__index-main-container">
   <div class="sa__index-main-container-info">
-    <h1>Enter your prompt to generate python scripts</h1>
+    <h1>
+      Enter your prompt<br />
+      to generate python scripts.
+    </h1>
     <div class="sa__index-main-container-info-input">
       <input
         type="text"
@@ -9,18 +12,20 @@
         id="prompt"
         placeholder="Enter your prompt"
       />
-      <input
-        type="text"
-        name="key"
-        id="key"
-        placeholder="Enter your OpenAI API key"
-      />
-      <button
-        onClick="window.location.href='https://www.youtube.com/watch?v=nafDyRsVnXU'"
-      >
-        How to Get an API Key?
-      </button>
-      <button onclick="">Submit</button>
+      <div class="sa__index-main-container-info-input-api-div">
+        <input
+          type="text"
+          name="key"
+          id="key"
+          placeholder="Enter your OpenAI API key"
+        />
+        <button
+          onClick="window.location.href='https://www.youtube.com/watch?v=nafDyRsVnXU'"
+        >
+          How to Get an API Key?
+        </button>
+      </div>
+      <button onclick="">Get Script</button>
     </div>
   </div>
   <div class="sa__index-main-container-display">

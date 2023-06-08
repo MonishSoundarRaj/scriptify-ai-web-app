@@ -1,7 +1,4 @@
 body {
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
     font-family: Manrope, sans-serif;
     /* ff 3.6+ */
     background: -moz-linear-gradient(90deg, rgba(7, 50, 95, 1) 0%, rgba(4, 12, 24, 1) 100%);
@@ -40,13 +37,13 @@ body {
 }
 
 /* index page CSS */
-
+/* info side css */
 .sa__index-main-container {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    padding: 100px;
+    margin: 60px;
 }
 
 .sa__index-main-container-info {
@@ -54,7 +51,73 @@ body {
     height: 100%;
 }
 
+.sa__index-main-container-info h1{
+  /* background-image: url(../images/code-text-image.png); */
+  background: linear-gradient(#8860B2, #F49867);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: text;
+  font-size: 70px;
+  line-height: 80px;
+  letter-spacing: 0.01em;
+}
+
 .sa__index-main-container-info-input {
     display: flex;
     flex-direction: column;
 }
+
+.sa__index-main-container-info-input input{
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0px solid black;
+    outline: none;
+}
+
+.sa__index-main-container-info-input-api-div{
+  display: flex;
+}
+.sa__index-main-container-info-input-api-div input{
+  flex: 1;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.sa__index-main-container-info-input-api-div button{
+   margin: 20px 0;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+   background-color: #112121;
+   color: white;
+   padding: 0 10px;
+   border: none;
+   cursor: pointer;
+   transition: background-color 0.4s ease,
+               color 0.4s ease;
+}
+
+.sa__index-main-container-info-input-api-div button:hover{
+    background-color: rgb(203, 72, 72);
+    color: black;
+}
+
+.sa__index-main-container-info-input > button{
+       margin: auto;
+       padding: 25px 35px;
+       border: none;
+       background-color: #FFFFFF; 
+       color: #1C2331;
+       cursor: pointer;
+       transition: background-color 0.4s ease;
+       font-size: 20px;
+       border-radius: 10px;
+}
+
+.sa__index-main-container-info-input > button:hover{
+    background-color: #FFD700; 
+}
+
+/* display side css*/
