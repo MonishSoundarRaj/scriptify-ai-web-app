@@ -18,7 +18,7 @@ app.post("/", (req, res) => {
   
   const receivedData = req.body;
   const apiKey = receivedData.k;
-  const prompt = "give me only code no text is needed, also keep in mind that I need only python scripts" + receivedData.p;
+  const prompt = "I'm looking for a Python script that accomplishes the following task: " + receivedData.p + ". Please provide a direct and efficient code solution without any additional commentary or extraneous text.";
   axios
   .post('https://api.openai.com/v1/completions', {
     model: "text-davinci-003",

@@ -153,7 +153,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 0.4s ease;
 }
+
+.sa__index-main-container-display-textarea-title-div button:hover{
+    background-color: #d8be29;
+}
+
 .sa__index-main-container-display-textarea-title-div button img{
     width: 20px;
     height: 20px;
@@ -191,4 +197,23 @@ body {
     transform: translate(-50%, -50%);
     height: 50px;
     width: 50px;
+}
+
+.sa__index-main-container-display-other-script-div{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.sa__index-main-container-display-other-script-div button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #112121;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
